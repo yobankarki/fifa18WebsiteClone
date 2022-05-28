@@ -1,0 +1,205 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background: #EFEFEF;
+}
+.dropdown
+{
+	margin-right: 8px;
+}
+.dropdown-menu
+{
+	background: #222222;
+	color: #ffffff;
+}
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #ffffff;
+    white-space: nowrap;
+}
+.dropdown-menu hr
+{
+	width: 80%;
+}
+
+
+#background
+{
+	min-height: 500px;
+	background: url(01.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: white;
+}
+#background img
+{
+	margin-top: 100px;
+}
+#background .btn , #about .btn , #ourservices .btn
+{
+	height: 50px;
+	width:150px;
+	margin-left: 10px;
+	padding-top: 15px;
+	font-size:15px;
+	color: black !important;
+}
+
+#about
+{
+
+	min-height: 500px;
+	background: url(03.jpg);
+	background-size: cover;	
+	color: #ffffff;
+	padding-top: 30px;
+}
+#about h1
+{
+	font-size:50px;
+}
+#about p
+{
+	font-size:25px;
+}
+#ourservices
+{
+	background: url(04.jpg);
+	background-size: cover;
+	height: auto;
+	color: #ffffff;
+	padding-bottom: 60px;
+}
+#ourservices  p
+{
+	font-size:25px;
+	padding-top: 30px;
+}
+#ourservices .row
+{
+	margin-top: 100px;
+}
+.bg2 img
+{
+	height: 400px;
+
+}
+#ourservices h1
+{
+	font-size:5s0px;
+}
+
+.bg3 .col-md-4
+{
+	text-align: right;
+	padding-right: 30px;
+}
+.bg3
+{
+	padding-bottom: 50px;
+	
+}
+.bg3 img
+{
+	padding-top: 40px;
+}
+.bg4 img
+{
+	height: 400px;
+	width: 500px;
+}
+.bg4 h2 , #contact h1
+{
+	font-size: 30px;
+	padding-top: 25px;
+}
+.bg2 p , #contact p
+{
+	font-size:20px;
+}
+#ourservices a
+{
+	color: #ffffff;
+	font-size: 18px;
+	text-decoration: none;
+}
+.bg5 h1 {
+    padding-left: 118px;
+    margin-bottom: -30px;
+}
+/* #contact
+{
+	padding: 60px 0px;
+}
+#contact form input
+{
+	height: 50px;
+	font-size: 15px;
+}
+#contact .email
+{
+	width: 100%;
+} */
+
+#contact .date
+{
+	width: 50%;
+	float: left;
+	margin-top: 5px;
+}/*
+#contact .countries
+{
+	font-size: 20px;
+}
+#contact .morecontact i
+{
+	font-size: 35px;
+	font-family: fontawesome;
+}*/
+#contact button
+{
+	background: orange;
+	font-size: 20px;
+	height: 50px;
+	width: 200px;
+	margin-top: 30px;
+}
+#foot
+{
+	padding: 40px 30px;
+	background: #182937;
+	color: #ffffff;
+}
+#foot table td
+{
+	padding-left: 15px;
+}
+#foot .row a
+{
+	text-decoration: none;
+	color: #ffffff;
+}
+#footer
+{
+	background: #444444;
+	padding: 30px;
+	color: #ffffff;
+	line-height:20px;
+	font-size: 12px;
+}
+#footer .col-md-5
+{
+	text-align: left;
+
+}
+#footer .row .col-md-6 a
+{
+	text-decoration: none;
+	color: #ffffff;
+}
